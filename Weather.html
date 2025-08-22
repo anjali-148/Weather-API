@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Weather</title>
+        <!-- <link rel="stylesheet" href="index.css"> -->
+        
+        <link rel="stylesheet" href="newindex.css">
+       
+    </head>
+    <body>
+        
+    <div class="universal">
+        
+        <div class="frame">
+            <h2>Loading....</h2>
+            
+            <div class="box">
+                <div id="outerbox">
+                    <input type="text" id="textbox" placeholder="Enter your location">
+                    <button id="button">
+                        <i class="fa-solid fa-magnifying-glass" id="btn1"></i>
+                    </button>
+                    <div class="anime">
+                        <i class="fa-solid fa-cloud" id="cloud"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <div class="icon">
+                    <img src="assets/cloudy.png" alt="weather icon" id="image">
+                </div>
+            </div>
+            <div class="desc">
+                <p class="temp">----<sup>°C</sup></p>
+                <p class ="description">Description</p>
+            </div>
+            <div class="details">
+                <div class="humidity">
+                    <span id="humidity_icon">
+                    <i class="fa-solid fa-droplet" id="i"></i>
+                    </span>
+                    <div class="h_text">
+                        <p id="h-perc">-----</p>
+                        <p class="define">Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <span id="wind_icon" ><i class="fa-solid fa-wind" ></i></span>
+                    <div class="w_text">
+                        <p id="w-perc">----Km/H</p>
+                        <p class="define">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/0c6dbf4a67.js" crossorigin="anonymous"></script>
+    <!-- <script src="script.js"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+     <script src="app.js"></script>
+    </body>
+</html>
