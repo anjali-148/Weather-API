@@ -61,6 +61,7 @@
 
 
 🖼 **Example Response**
+
         {
           "name": "London",
           "main": {
