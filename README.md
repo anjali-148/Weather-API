@@ -76,7 +76,7 @@
 
 🚀 **Future Improvements**
 
-        -Add 5-day forecast support<br>
+        -Add 5-day forecast support
         -Show weather icons dynamically
         -Save favorite cities in localStorage
         -Dark mode 🌙
